@@ -1,5 +1,26 @@
 # Kullanıcı Tercihleri ve Notlar
 
+Architecture kuralları)
+
+Bu projede ben sadece özellikleri söylerim. Sen ise bir senior yazılımcı gibi davran:
+
+Kod mimarisini sen belirle.
+
+Gerektiğinde yeni dosya/klasör oluştur. Ben "yeni dosya oluştur" demesem bile, bir senior yazılımcı o durumda nasıl dosya ayırırsa öyle yap.
+
+Tüm dosyaları mantıklı bir modüler yapıda düzenle.
+
+Kod okunabilir, genişletilebilir ve test edilebilir olsun.
+
+Tekrar eden kodları ayırıp helpers, services gibi dosyalara taşı.
+
+Gerektiğinde config.py, logger.py, database.py gibi destek dosyaları sen ekle.
+
+Proje büyüdükçe mantıklı bir architecture (ör. MVC, service layer, modular design) kur.
+
+Ben sadece istekleri söylerim, sen onları hayata geçirirken proje mimarisi için en iyi kararı sen ver.
+
+
 ## Genel Bilgiler
 - **Kullanıcı**: Kodlama bilgisi yok, talimat vererek program yazdırma odaklı
 - **Beklenti**: "Ne istediğimi söyleyeyim, o da bilgisayarımda yazsın/çalıştırsın"
@@ -56,3 +77,4 @@
 *Son güncelleme: [Bugün]*
 *Bu dosya her yeni konuşmada okunacak ve tercihler hatırlanacak*
 *AI: Yeni konuşmada bu dosyayı oku, proje dosyalarını incele, kaldığı yerden devam et*
+
